@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section{
+    position: relative;
+   margin: 15% 30%;
+   padding: 60px;
+   display: grid;
+   place-items: center;
+   border-radius: 20px;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   text-align: center;
+}
+
+.section h2{
+ font-size: 50px;
+ padding-bottom: 40px;
+}
+
+#btn{
+    border: 2px solid black;
+    background: black;
+    color: white;
+    padding:  10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    font-weight: 600;
+}
+
+
+#btn:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.openModal #cross{
+    margin-top: 40px;
+}
+
+.openModal{
+    z-index: 11;
+    background-color: white;
+    display: none;
+    position: absolute;
+}
+
+.firstModal{
+    background-color: white;
+    z-index: 1;
+    padding: 20px;
+}
